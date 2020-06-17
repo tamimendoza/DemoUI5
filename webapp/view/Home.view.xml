@@ -1,0 +1,17 @@
+<mvc:View
+	controllerName="sap.ui.demo.basicTemplate.controller.Home"
+	displayBlock="true"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc">
+	<Page
+		id="page"
+		title="{i18n>title}">
+		<content>
+		
+			<Button text="Presionar"
+					ariaDescribedBy="defaultButtonDescription genericButtonDescription">
+			</Button>
+
+		</content>
+	</Page>
+</mvc:View>
